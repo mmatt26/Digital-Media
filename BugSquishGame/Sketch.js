@@ -130,17 +130,15 @@ function draw()
           state = 3;
           if (state == 3){
 					 background(255, 153, 51, 90);
-           text("You squished all THE bugs", 180, 200);
-					 fill(0);
-					 textSize(20);
-					 text("Play Again!", 290, 290);
+           fill(255)
+           textSize(50);
+           textFont("Cursive");
+           text("Master Bug Killer!", 180, 200);
 					 fill(102, 255, 102);
-					 rect(250, 260, 150, 50);
-					 if(mouseX >= 250 && mouseX <= 400 && mouseY >= 250 && mouseY <=350 && mouseClick == true)
-					 {
-					 	state = 1;
-					 	startTime = second(30);
-					 }
+					 rect(250, 260, 250, 50);
+           fill(0);
+					 textSize(20);
+					 text("Reload Page Play to Again!", 255, 290);
         }
 			}
 
